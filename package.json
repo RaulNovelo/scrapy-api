@@ -1,0 +1,16 @@
+{
+  "name": "scrapy-api",
+  "version": "1.0.0",
+  "description": "A Node.js wrapper for working with the Scrapyd API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "deepcopy": "^2.0.0",
+    "request": "^2.88.2",
+    "url-join": "^4.0.1"
+  }
+}
