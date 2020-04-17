@@ -16,6 +16,10 @@ class ScrapyAPI {
     this.target = target
   }
 
+  /**
+   * Returns a url join of base target with given endpoint
+   * @param {String} endpoint
+   */
   formatURL (endpoint) {
     var path
     try {
@@ -40,7 +44,7 @@ class ScrapyAPI {
       spider,
       ...data
     }
-    return client.post(url, formData)
+    return client.post(url, formData) // promise
   }
 }
 
