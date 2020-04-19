@@ -1,7 +1,7 @@
-const ScrapyAPI = require('./scrapy_api/index')
-const scrapyapi = new ScrapyAPI()
+const ScrapydAPI = require('./scrapy_api')
+const scrapyd = new ScrapydAPI()
 
-scrapyapi.schedule('default', 'test-spider').then(
+scrapyd.schedule('default', 'test-spider').then(
   jobid => {
     console.log(jobid)
   },
