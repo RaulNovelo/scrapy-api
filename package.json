@@ -1,5 +1,5 @@
 {
-  "name": "scrapyd-api",
+  "name": "@rnovec/scrapyd-api",
   "version": "1.0.0",
   "description": "A Node.js wrapper for working with the Scrapyd API",
   "main": "./src/index.js",
