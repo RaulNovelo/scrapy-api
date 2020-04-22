@@ -1,4 +1,4 @@
-const ScrapydAPI = require('./scrapy_api')
+const ScrapydAPI = require('../src')
 const scrapyd = new ScrapydAPI()
 
 scrapyd.schedule('default', 'test-spider').then(
