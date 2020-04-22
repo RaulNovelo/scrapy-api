@@ -11,19 +11,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RaulNovelo/scrapy-api.git"
+    "url": "git+https://github.com/RaulNovelo/scrapyd-api.git"
   },
   "keywords": [
     "api",
     "scrapyd",
     "scrapy"
   ],
-  "author": "Raul Novelo <rnovelo.cruz98@gmail>",
+  "author": "Raul Novelo <rnovelo.cruz98@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RaulNovelo/scrapy-api/issues"
+    "url": "https://github.com/RaulNovelo/scrapyd-api/issues"
   },
-  "homepage": "https://github.com/RaulNovelo/scrapy-api#readme",
+  "homepage": "https://github.com/RaulNovelo/scrapyd-api#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
