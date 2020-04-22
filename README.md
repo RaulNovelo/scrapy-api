@@ -1,4 +1,4 @@
-# scrapy-api
+# Node.js Scrapyd API
 
 A Node.js wrapper for working with the Scrapyd API
 
