@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RaulNovelo/scrapyd-api.git"
+    "url": "git+https://github.com/rnovec/scrapyd-api.git"
   },
   "keywords": [
     "api",
@@ -21,9 +21,9 @@
   "author": "Raul Novelo <rnovelo.cruz98@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RaulNovelo/scrapyd-api/issues"
+    "url": "https://github.com/rnovec/scrapyd-api/issues"
   },
-  "homepage": "https://github.com/RaulNovelo/scrapyd-api#readme",
+  "homepage": "https://github.com/rnovec/scrapyd-api#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
