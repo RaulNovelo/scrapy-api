@@ -16,9 +16,9 @@ module.exports = {
         if (error) throw new ScrapydResponseError(error)
         const json = JSON.parse(response.body)
         if (json['status'] === 'error') {
-          reject(json['message'])
+          reject(json)
         }
-        resolve(json['jobid'])
+        resolve(json)
       })
     })
   }

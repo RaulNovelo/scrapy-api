@@ -37,7 +37,7 @@ class ScrapyAPI {
    * @param {String} spider
    * @param  {...any} data
    */
-  schedule (project, spider, ...data) {
+  schedule (project, spider, data) {
     const url = this.formatURL(constants.SCHEDULE_ENDPOINT)
     const formData = {
       project,
