@@ -4,12 +4,12 @@ A Node.js wrapper for working with the Scrapyd API
 
 ## Install
 
-    $ npm i scrapy-api
+    $ npm i @rnovec/scrapyd-api
 
 ## Usage
 
 ```js
-const ScrapydAPI = require('scrapy-api')
+const ScrapydAPI = require('@rnovec/scrapyd-api')
 const scrapyd = new ScrapydAPI()
 
 scrapyd.schedule('default', 'test-spider').then(
