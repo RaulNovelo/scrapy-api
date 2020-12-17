@@ -35,7 +35,7 @@ class ScrapyAPI {
    * to Scrapyd's scheduling endpoint.
    * @param {String} project
    * @param {String} spider
-   * @param  {...any} data
+   * @param  {object} data
    */
   schedule (project, spider, data) {
     const url = this.formatURL(constants.SCHEDULE_ENDPOINT)

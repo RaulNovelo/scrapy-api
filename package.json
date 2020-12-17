@@ -25,9 +25,6 @@
     "url": "https://github.com/rnovec/scrapyd-api/issues"
   },
   "homepage": "https://github.com/rnovec/scrapyd-api#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "dependencies": {
     "axios": "^0.19.2",
     "deepcopy": "^2.0.0",
